@@ -5,9 +5,9 @@
     "branch":      "cm-12.1"
   },
   {
-    "repository": "AICP/device_cyanogen_msm8916-common",
+    "repository": "CyanogenMod/android_device_cyanogen_msm8916-common",
     "target_path": "device/cyanogen/msm8916-common",
-    "branch":      "lp5.1"
+    "branch":      "cm-12.1"
   },
   {
     "repository":  "CyanogenMod/android_hardware_qcom_fm",
