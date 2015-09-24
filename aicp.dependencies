@@ -2,7 +2,7 @@
   {
     "repository": "CyanogenMod/android_kernel_cyanogen_msm8916",
     "target_path": "kernel/cyanogen/msm8916",
-    "branch":      "cm-12.1"
+    "branch":      "cm-12.1-amss-1.0.2"
   },
   {
     "repository": "CyanogenMod/android_device_cyanogen_msm8916-common",
