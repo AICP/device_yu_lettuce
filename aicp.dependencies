@@ -1,0 +1,18 @@
+[
+  {
+    "repository":  "AICP/device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "branch":      "mm6.0"
+  },
+  {
+   "repository":  "TheStrix/android_kernel_cyanogen_msm8916",
+   "target_path": "kernel/cyanogen/msm8916",
+   "branch":      "mm6.0"
+  },
+  {
+   "repository":  "AICP/proprietary_vendor_yu",
+   "target_path": "vendor/yu",
+   "branch":      "mm6.0"
+  }
+]
+
