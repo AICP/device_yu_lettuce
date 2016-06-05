@@ -3,3 +3,7 @@ allow system_server touchpanel_sysfs:dir { search };
 allow system_app qmuxd:unix_stream_socket connectto;
 allow system_app qmuxd_socket:dir { add_name write };
 allow system_app qmuxd_socket:sock_file { create setattr write };
+
+
+# for CMHardwareService access to VibratorHW
+allow system_server vibeamp_sysfs:file rw_file_perms;
