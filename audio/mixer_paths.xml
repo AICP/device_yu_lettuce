@@ -49,9 +49,9 @@
     <ctl name="Voip Evrc Min Max Rate Config" id="1" value="4" />
     <ctl name="Voip Dtx Mode" value="0" />
     <ctl name="TTY Mode" value="Off" />
-    <ctl name="RX1 Digital Volume" value="90" />
-    <ctl name="RX2 Digital Volume" value="90" />
-    <ctl name="RX3 Digital Volume" value="90" />
+    <ctl name="RX1 Digital Volume" value="92" />
+    <ctl name="RX2 Digital Volume" value="92" />
+    <ctl name="RX3 Digital Volume" value="92" />
     <ctl name="IIR1 INP1 Volume" value="84" />
     <ctl name="IIR1 INP2 Volume" value="84" />
     <ctl name="IIR1 INP3 Volume" value="84" />
@@ -94,8 +94,8 @@
     <ctl name="SPKOUTR Input 1" value="None" />
     <ctl name="Speaker Digital Switch" id="0" value="0" />
     <ctl name="Speaker Digital Switch" id="1" value="0" />
-    <ctl name="Speaker Digital Volume" id="0" value="134" />
-    <ctl name="Speaker Digital Volume" id="1" value="134" />
+    <ctl name="Speaker Digital Volume" id="0" value="132" />
+    <ctl name="Speaker Digital Volume" id="1" value="132" />
 
     <ctl name="EQ1 Input" value="None" />
     <ctl name="EQ2 Input" value="None" />
@@ -734,7 +734,7 @@
     <path name="handset">
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RDAC2 MUX" value="RX1" />
-        <ctl name="RX1 Digital Volume" value="84" />
+        <ctl name="RX1 Digital Volume" value="92" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="EAR_S" value="Switch" />
     </path>
