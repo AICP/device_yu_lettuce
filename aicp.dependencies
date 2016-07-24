@@ -2,7 +2,7 @@
   {
    "repository": "CyanogenMod/android_kernel_cyanogen_msm8916",
    "target_path": "kernel/cyanogen/msm8916",
-   "branch":      "staging/cm-13.0-lettuce"
+   "branch":      "cm-13.0"
   },
   {
    "repository":  "TheMuppets/proprietary_vendor_yu",
