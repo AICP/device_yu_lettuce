@@ -49,9 +49,9 @@
     <ctl name="Voip Evrc Min Max Rate Config" id="1" value="4" />
     <ctl name="Voip Dtx Mode" value="0" />
     <ctl name="TTY Mode" value="Off" />
-    <ctl name="RX1 Digital Volume" value="84" />
-    <ctl name="RX2 Digital Volume" value="84" />
-    <ctl name="RX3 Digital Volume" value="84" />
+    <ctl name="RX1 Digital Volume" value="90" />
+    <ctl name="RX2 Digital Volume" value="90" />
+    <ctl name="RX3 Digital Volume" value="90" />
     <ctl name="IIR1 INP1 Volume" value="84" />
     <ctl name="IIR1 INP2 Volume" value="84" />
     <ctl name="IIR1 INP3 Volume" value="84" />
@@ -94,8 +94,8 @@
     <ctl name="SPKOUTR Input 1" value="None" />
     <ctl name="Speaker Digital Switch" id="0" value="0" />
     <ctl name="Speaker Digital Switch" id="1" value="0" />
-    <ctl name="Speaker Digital Volume" id="0" value="128" />
-    <ctl name="Speaker Digital Volume" id="1" value="128" />
+    <ctl name="Speaker Digital Volume" id="0" value="134" />
+    <ctl name="Speaker Digital Volume" id="1" value="134" />
 
     <ctl name="EQ1 Input" value="None" />
     <ctl name="EQ2 Input" value="None" />
@@ -722,7 +722,7 @@
         <ctl name="SPKOUTL Input 2" value="DRC1R" />
         <ctl name="Speaker High Performance Switch" value="1" />
         <ctl name="Speaker Digital Switch" value="1" />
-        <ctl name="Speaker Digital Volume" value="126" />
+        <ctl name="Speaker Digital Volume" value="132" />
     </path>
 
     <path name="speaker-mic">
@@ -791,7 +791,7 @@
         <ctl name="DRC1" id="9" value="20" />
         <ctl name="SPKOUTL Input 1" value="DRC1L" />
         <ctl name="Speaker Digital Switch" value="1" />
-        <ctl name="Speaker Digital Volume" value="130" />
+        <ctl name="Speaker Digital Volume" value="132" />
     </path>
 
     <path name="voice-speaker-mic">
@@ -960,7 +960,7 @@
         <ctl name="SPKOUTL Input 2" value="EQ2" />
         <ctl name="Speaker High Performance Switch" value="1" />
         <ctl name="Speaker Digital Switch" value="1" />
-        <ctl name="Speaker Digital Volume" value="126" />
+        <ctl name="Speaker Digital Volume" value="132" />
     </path>
 
     <path name="usb-headphones">
