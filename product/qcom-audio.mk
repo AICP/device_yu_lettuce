@@ -21,6 +21,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.voicecall=true \
     persist.audio.fluence.voicerec=false \
     persist.audio.fluence.speaker=true \
-    qcom.hw.aac.encoder=true \
     audio.parser.ip.buffer.size=262144 \
     audio_hal.period_size=240
