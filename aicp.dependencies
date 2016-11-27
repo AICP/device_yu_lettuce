@@ -1,11 +1,14 @@
 [
   {
-    "repository": "YU-N/android_device_cyanogen_msm8916-common",
-    "target_path": "device/cyanogen/msm8916-common"
+    "repository": "The-DarkBeast/android_device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+	"branch":      "cm-14.1"
   },
   {
-    "repository": "YU-N/android_kernel_cyanogen_msm8916",
-    "target_path": "kernel/cyanogen/msm8916"
-  }
+    "repository": "The-DarkBeast/aicp_kernel",
+    "target_path": "kernel/cyanogen/msm8916",
+	"branch":      "master"
+  },
 ]
+
 
