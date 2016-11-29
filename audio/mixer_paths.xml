@@ -49,9 +49,9 @@
     <ctl name="Voip Evrc Min Max Rate Config" id="1" value="4" />
     <ctl name="Voip Dtx Mode" value="0" />
     <ctl name="TTY Mode" value="Off" />
-    <ctl name="RX1 Digital Volume" value="92" />
-    <ctl name="RX2 Digital Volume" value="92" />
-    <ctl name="RX3 Digital Volume" value="92" />
+    <ctl name="RX1 Digital Volume" value="86" />
+    <ctl name="RX2 Digital Volume" value="86" />
+    <ctl name="RX3 Digital Volume" value="86" />
     <ctl name="IIR1 INP1 Volume" value="84" />
     <ctl name="IIR1 INP2 Volume" value="84" />
     <ctl name="IIR1 INP3 Volume" value="84" />
@@ -94,8 +94,8 @@
     <ctl name="SPKOUTR Input 1" value="None" />
     <ctl name="Speaker Digital Switch" id="0" value="0" />
     <ctl name="Speaker Digital Switch" id="1" value="0" />
-    <ctl name="Speaker Digital Volume" id="0" value="132" />
-    <ctl name="Speaker Digital Volume" id="1" value="132" />
+    <ctl name="Speaker Digital Volume" id="0" value="128" />
+    <ctl name="Speaker Digital Volume" id="1" value="128" />
 
     <ctl name="EQ1 Input" value="None" />
     <ctl name="EQ2 Input" value="None" />
@@ -682,14 +682,14 @@
         <ctl name="LHPF2 Input 1 Volume" value="26" />
         <ctl name="LHPF2 Input 2 Volume" value="26" />
 
-        <ctl name="LHPF3 Input 1 Volume" value="32" />
+        <ctl name="LHPF3 Input 1 Volume" value="26" />
 
         <ctl name="LHPF1 Coefficients" id="0" value="241"/>
         <ctl name="LHPF1 Coefficients" id="1" value="160"/>
         <ctl name="LHPF2 Coefficients" id="0" value="241"/>
         <ctl name="LHPF2 Coefficients" id="1" value="160"/>
         <ctl name="LHPF3 Coefficients" id="0" value="240"/>
-        <ctl name="LHPF3 Coefficients" id="1" value="143"/>
+        <ctl name="LHPF3 Coefficients" id="1" value="152"/>
 
         <ctl name="LHPF1 Input 1" value="AIF1RX1" />
         <ctl name="LHPF1 Input 2" value="AIF1RX2" />
@@ -699,14 +699,14 @@
 
         <ctl name="EQ1 Input" value="LHPF2" />
 
-        <ctl name="EQ1 B1 Volume" value="12" />
-        <ctl name="EQ1 B2 Volume" value="12" />
-        <ctl name="EQ1 B3 Volume" value="12" />
-        <ctl name="EQ1 B4 Volume" value="12" />
+        <ctl name="EQ1 B1 Volume" value="14" />
+        <ctl name="EQ1 B2 Volume" value="15" />
+        <ctl name="EQ1 B3 Volume" value="14" />
+        <ctl name="EQ1 B4 Volume" value="14" />
         <ctl name="EQ1 B5 Volume" value="12" />
 
-        <ctl name="DRC1L Input" value="LHPF3" />
-        <ctl name="DRC1R Input" value="EQ1" />
+        <ctl name="DRC1L Input" value="AIF1RX1" />
+        <ctl name="DRC1R Input" value="AIF1RX2" />
         <ctl name="DRC1" id="0" value="0" />
         <ctl name="DRC1" id="1" value="251" />
         <ctl name="DRC1" id="2" value="9" />
@@ -722,7 +722,7 @@
         <ctl name="SPKOUTL Input 2" value="DRC1R" />
         <ctl name="Speaker High Performance Switch" value="1" />
         <ctl name="Speaker Digital Switch" value="1" />
-        <ctl name="Speaker Digital Volume" value="132" />
+        <ctl name="Speaker Digital Volume" value="128" />
     </path>
 
     <path name="speaker-mic">
@@ -734,7 +734,7 @@
     <path name="handset">
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RDAC2 MUX" value="RX1" />
-        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX1 Digital Volume" value="84" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="EAR_S" value="Switch" />
     </path>
@@ -779,19 +779,19 @@
 
     <path name="voice-speaker">
         <ctl name="DRC1L Input" value="AIF1RX1" />
-        <ctl name="DRC1" id="0" value="1" />
-        <ctl name="DRC1" id="1" value="248" />
+        <ctl name="DRC1" id="0" value="0" />
+        <ctl name="DRC1" id="1" value="251" />
         <ctl name="DRC1" id="2" value="9" />
         <ctl name="DRC1" id="3" value="51" />
         <ctl name="DRC1" id="4" value="3" />
         <ctl name="DRC1" id="5" value="16" />
         <ctl name="DRC1" id="6" value="5" />
         <ctl name="DRC1" id="7" value="16" />
-        <ctl name="DRC1" id="8" value="2" />
-        <ctl name="DRC1" id="9" value="20" />
+        <ctl name="DRC1" id="8" value="3" />
+        <ctl name="DRC1" id="9" value="26" />
         <ctl name="SPKOUTL Input 1" value="DRC1L" />
         <ctl name="Speaker Digital Switch" value="1" />
-        <ctl name="Speaker Digital Volume" value="132" />
+        <ctl name="Speaker Digital Volume" value="130" />
     </path>
 
     <path name="voice-speaker-mic">
@@ -960,7 +960,7 @@
         <ctl name="SPKOUTL Input 2" value="EQ2" />
         <ctl name="Speaker High Performance Switch" value="1" />
         <ctl name="Speaker Digital Switch" value="1" />
-        <ctl name="Speaker Digital Volume" value="132" />
+        <ctl name="Speaker Digital Volume" value="130" />
     </path>
 
     <path name="usb-headphones">
