@@ -1,1 +1,2 @@
 allow audioserver sysfs:dir { open read };
+allow audioserver system_data_file:sock_file write;
