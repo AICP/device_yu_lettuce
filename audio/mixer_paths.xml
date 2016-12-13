@@ -49,9 +49,9 @@
     <ctl name="Voip Evrc Min Max Rate Config" id="1" value="4" />
     <ctl name="Voip Dtx Mode" value="0" />
     <ctl name="TTY Mode" value="Off" />
-    <ctl name="RX1 Digital Volume" value="84" />
-    <ctl name="RX2 Digital Volume" value="84" />
-    <ctl name="RX3 Digital Volume" value="84" />
+    <ctl name="RX1 Digital Volume" value="80" />
+    <ctl name="RX2 Digital Volume" value="80" />
+    <ctl name="RX3 Digital Volume" value="80" />
     <ctl name="IIR1 INP1 Volume" value="84" />
     <ctl name="IIR1 INP2 Volume" value="84" />
     <ctl name="IIR1 INP3 Volume" value="84" />
@@ -699,19 +699,19 @@
 
         <ctl name="EQ1 Input" value="AIF1RX1" />
 
-        <ctl name="EQ1 B1 Volume" value="12" />
-        <ctl name="EQ1 B2 Volume" value="12" />
-        <ctl name="EQ1 B3 Volume" value="12" />
-        <ctl name="EQ1 B4 Volume" value="12" />
-        <ctl name="EQ1 B5 Volume" value="12" />
+        <ctl name="EQ1 B1 Volume" value="10" />
+        <ctl name="EQ1 B2 Volume" value="10" />
+        <ctl name="EQ1 B3 Volume" value="10" />
+        <ctl name="EQ1 B4 Volume" value="10" />
+        <ctl name="EQ1 B5 Volume" value="10" />
 
 	<ctl name="EQ2 Input" value="AIF1RX2" />
 
-        <ctl name="EQ2 B1 Volume" value="12" />
-        <ctl name="EQ2 B2 Volume" value="12" />
-        <ctl name="EQ2 B3 Volume" value="12" />
-        <ctl name="EQ2 B4 Volume" value="12" />
-        <ctl name="EQ2 B5 Volume" value="12" />
+        <ctl name="EQ2 B1 Volume" value="10" />
+        <ctl name="EQ2 B2 Volume" value="10" />
+        <ctl name="EQ2 B3 Volume" value="10" />
+        <ctl name="EQ2 B4 Volume" value="10" />
+        <ctl name="EQ2 B5 Volume" value="10" />
 
 
 	<ctl name="EQ1 Coefficients" id="0" value="0" />
