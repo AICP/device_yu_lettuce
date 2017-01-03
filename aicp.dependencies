@@ -1,27 +1,33 @@
 [
   {
-    "repository": "YU-N/android_device_cyanogen_msm8916-common",
+    "repository" : "YU-N/android_device_cyanogen_msm8916-common",
     "target_path": "device/cyanogen/msm8916-common",
-	"branch":  "cm-14.1"
+	"branch" :  "cm-14.1"
   },
   {
-    "repository": "The-DarkBeast/lettuce-custom",
+    "repository" : "The-DarkBeast/lettuce-custom",
     "target_path": "kernel/cyanogen/msm8916",
-	"branch":  "cm-14.1"
+	"branch" :  "cm-14.1"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_yu",
+    "repository" : "TheMuppets/proprietary_vendor_yu",
     "target_path": "vendor/yu",
-        "branch":  "cm-14.1"
+        "branch" :  "cm-14.1"
   },
   {
-    "repository": "LineageOS/android_device_qcom_common",
+    "repository" : "LineageOS/android_device_qcom_common",
     "target_path": "device/qcom/common",
-        "branch":  "cm-14.1"
+        "branch" :  "cm-14.1"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_qcom_binaries",
+    "repository" : "TheMuppets/proprietary_vendor_qcom_binaries",
     "target_path": "vendor/qcom/binaries",
-        "branch":  "cm-14.1"
+        "branch" :  "cm-14.1"
+  }
+  {
+    "repository" : "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch"     : "cm-14.1"
   }
 ]
+
