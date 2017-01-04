@@ -15,6 +15,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">Advanced Settings</string>
+
+    <!-- Touchscreen Gestures -->
+    <string name="screen_gestures_panel_title">Gestures</string>
+
+    <!-- Touchscreen Gestures haptic feedback -->
+    <string name="touchscreen_gesture_extras">Extras</string>
+    <string name="touchscreen_gesture_haptic_feedback">Haptic feedback</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">Vibrate when a gesture gets detected</string>
+
     <!-- Gesture shortcuts -->
     <string name="touchscreen_gesture_title">Touchscreen gestures</string>
     <string name="touchscreen_camera_gesture_title">Camera</string>
