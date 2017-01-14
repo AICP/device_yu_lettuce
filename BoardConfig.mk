@@ -17,5 +17,10 @@ include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
 include device/yu/lettuce/board/*.mk
 
+# Assertions
+ADD_RADIO_FILES ?= true
+TARGET_BOARD_INFO_FILE := device/yu/lettuce/board-info.txt
+TARGET_RELEASETOOLS_EXTENSIONS := device/yu/lettuce
+
 # inherit from proprietary files
 -include vendor/yu/lettuce/BoardConfigVendor.mk
