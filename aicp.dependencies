@@ -1,6 +1,6 @@
 [
   {
-    "repository" : "YU-N/android_device_cyanogen_msm8916-common",
+    "repository" : "The-DarkBeast/android_device_cyanogen_msm8916-common",
     "target_path": "device/cyanogen/msm8916-common",
 	"branch" :  "cm-14.1"
   },
