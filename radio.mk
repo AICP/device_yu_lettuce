@@ -28,10 +28,6 @@ $(foreach f, $(RADIO_FILES), \
     $(call add-radio-file,radio/$(f)))
 endif
 
-TARGET_BOOTLOADER_EMMC_INTERNAL := $(LOCAL_PATH)/images/emmc_appsboot.mbn
-$(TARGET_BOOTLOADER_EMMC_INTERNAL): $(TARGET_BOOTLOADER)
-
-INSTALLED_RADIOIMAGE_TARGET += $(TARGET_BOOTLOADER_EMMC_INTERNAL)
 
 # Proprietary
 $(call add-radio-file,../../../vendor/volte/lettuce/radio/NON-HLOS.bin)
