@@ -7,7 +7,7 @@
   {
     "repository" : "LineageOS/android_kernel_cyanogen_msm8916",
     "target_path": "kernel/cyanogen/msm8916",
-    "branch"     : "n7.1"
+    "branch"     : "cm-14.1"
   },
   {
     "repository" : "LineageOS/android_device_qcom_common",
@@ -17,11 +17,6 @@
   {
     "repository" : "LineageOS/android_device_cyanogen_msm8916-common",
     "target_path": "device/cyanogen/msm8916-common",
-    "branch"     : "n7.1"
-  },
-  {
-    "repository" : "The-DarkBeast/android_vendor_volte",
-    "target_path": "vendor/volte",
-    "branch"     : "master"
+    "branch"     : "cm-14.1"
   }
 ]
